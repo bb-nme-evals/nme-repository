@@ -1,0 +1,583 @@
+﻿{
+  "Reference":  "Jokiniemi 2018",
+  "URL":  "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.024608",
+  "bibtex":  "@article{Jokiniemi:2018sxd, author = \"Jokiniemi, L. and Ejiri, H. and Frekers, D. and Suhonen, J.\", title = \"{Neutrinoless $\\beta \\beta$ nuclear matrix elements using isovector spin-dipole $J^\\pi=2^−$ data}\", doi = \"10.1103/PhysRevC.98.024608\", journal = \"Phys. Rev. C\", volume = \"98\", number = \"2\", pages = \"024608\", year = \"2018\" }",
+  "entries":  [
+          {
+            "Model class":  "QRPA",
+            "Model":  "Spherical QRPA",
+            "Isotope":  "76Ge",
+            "g_A":  "1.27",
+            "matrix_elements":  {
+                        "M_{total}":  {
+                                 "value":  "6.8",
+                                 "error":  ""
+                               },
+                        "M_{long\\,range}":  {
+                                    "value":  "6.8",
+                                    "error":  ""
+                                  },
+                        "M_{short\\,range}":  {
+                                     "value":  "-",
+                                     "error":  ""
+                                   },
+                        "M_summed":  {
+                                "M_{GT}":  {
+                                        "value":  "5.4",
+                                        "error":  ""
+                                      },
+                                "M_F":  {
+                                      "value":  "-1.76",
+                                      "error":  ""
+                                    },
+                                "M_T":  {
+                                      "value":  "-0.356",
+                                      "error":  ""
+                                    }
+                              },
+                        "M_subcomponents":  {
+                                    "M_F":  {
+                                          "value":  "",
+                                          "error":  ""
+                                        },
+                                    "M_{GT}^{AA}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{MM}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{T}^{AA}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{AP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{PP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{MM}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{Fsd}":  {
+                                            "value":  "",
+                                            "error":  ""
+                                          },
+                                    "M_{GTsd}^{AA}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{AP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{PP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{Tsd}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{Tsd}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            }
+                                  }
+                      }
+          },
+          {
+            "Model class":  "QRPA",
+            "Model":  "Spherical QRPA",
+            "Isotope":  "76Ge",
+            "g_A":  "1.27",
+            "matrix_elements":  {
+                        "M_{total}":  {
+                                 "value":  "6.9",
+                                 "error":  ""
+                               },
+                        "M_{long\\,range}":  {
+                                    "value":  "6.9",
+                                    "error":  ""
+                                  },
+                        "M_{short\\,range}":  {
+                                     "value":  "-",
+                                     "error":  ""
+                                   },
+                        "M_summed":  {
+                                "M_{GT}":  {
+                                        "value":  "5.5",
+                                        "error":  ""
+                                      },
+                                "M_F":  {
+                                      "value":  "-1.76",
+                                      "error":  ""
+                                    },
+                                "M_T":  {
+                                      "value":  "-0.357",
+                                      "error":  ""
+                                    }
+                              },
+                        "M_subcomponents":  {
+                                    "M_F":  {
+                                          "value":  "",
+                                          "error":  ""
+                                        },
+                                    "M_{GT}^{AA}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{MM}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{T}^{AA}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{AP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{PP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{MM}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{Fsd}":  {
+                                            "value":  "",
+                                            "error":  ""
+                                          },
+                                    "M_{GTsd}^{AA}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{AP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{PP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{Tsd}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{Tsd}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            }
+                                  }
+                      }
+          },
+          {
+            "Model class":  "QRPA",
+            "Model":  "Spherical QRPA",
+            "Isotope":  "76Ge",
+            "g_A":  "1.27",
+            "matrix_elements":  {
+                        "M_{total}":  {
+                                 "value":  "7.4",
+                                 "error":  ""
+                               },
+                        "M_{long\\,range}":  {
+                                    "value":  "7.4",
+                                    "error":  ""
+                                  },
+                        "M_{short\\,range}":  {
+                                     "value":  "-",
+                                     "error":  ""
+                                   },
+                        "M_summed":  {
+                                "M_{GT}":  {
+                                        "value":  "5.8",
+                                        "error":  ""
+                                      },
+                                "M_F":  {
+                                      "value":  "-1.95",
+                                      "error":  ""
+                                    },
+                                "M_T":  {
+                                      "value":  "-0.31",
+                                      "error":  ""
+                                    }
+                              },
+                        "M_subcomponents":  {
+                                    "M_F":  {
+                                          "value":  "",
+                                          "error":  ""
+                                        },
+                                    "M_{GT}^{AA}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{MM}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{T}^{AA}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{AP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{PP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{MM}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{Fsd}":  {
+                                            "value":  "",
+                                            "error":  ""
+                                          },
+                                    "M_{GTsd}^{AA}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{AP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{PP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{Tsd}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{Tsd}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            }
+                                  }
+                      }
+          },
+          {
+            "Model class":  "QRPA",
+            "Model":  "Spherical QRPA",
+            "Isotope":  "76Ge",
+            "g_A":  "1.27",
+            "matrix_elements":  {
+                        "M_{total}":  {
+                                 "value":  "6.9",
+                                 "error":  ""
+                               },
+                        "M_{long\\,range}":  {
+                                    "value":  "6.9",
+                                    "error":  ""
+                                  },
+                        "M_{short\\,range}":  {
+                                     "value":  "-",
+                                     "error":  ""
+                                   },
+                        "M_summed":  {
+                                "M_{GT}":  {
+                                        "value":  "5.3",
+                                        "error":  ""
+                                      },
+                                "M_F":  {
+                                      "value":  "-1.99",
+                                      "error":  ""
+                                    },
+                                "M_T":  {
+                                      "value":  "-0.39",
+                                      "error":  ""
+                                    }
+                              },
+                        "M_subcomponents":  {
+                                    "M_F":  {
+                                          "value":  "",
+                                          "error":  ""
+                                        },
+                                    "M_{GT}^{AA}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{MM}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{T}^{AA}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{AP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{PP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{MM}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{Fsd}":  {
+                                            "value":  "",
+                                            "error":  ""
+                                          },
+                                    "M_{GTsd}^{AA}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{AP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{PP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{Tsd}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{Tsd}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            }
+                                  }
+                      }
+          },
+          {
+            "Model class":  "QRPA",
+            "Model":  "Spherical QRPA",
+            "Isotope":  "76Ge",
+            "g_A":  "1.27",
+            "matrix_elements":  {
+                        "M_{total}":  {
+                                 "value":  "6.8",
+                                 "error":  ""
+                               },
+                        "M_{long\\,range}":  {
+                                    "value":  "6.8",
+                                    "error":  ""
+                                  },
+                        "M_{short\\,range}":  {
+                                     "value":  "-",
+                                     "error":  ""
+                                   },
+                        "M_summed":  {
+                                "M_{GT}":  {
+                                        "value":  "5.2",
+                                        "error":  ""
+                                      },
+                                "M_F":  {
+                                      "value":  "-1.99",
+                                      "error":  ""
+                                    },
+                                "M_T":  {
+                                      "value":  "-0.389",
+                                      "error":  ""
+                                    }
+                              },
+                        "M_subcomponents":  {
+                                    "M_F":  {
+                                          "value":  "",
+                                          "error":  ""
+                                        },
+                                    "M_{GT}^{AA}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{MM}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{T}^{AA}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{AP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{PP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{MM}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{Fsd}":  {
+                                            "value":  "",
+                                            "error":  ""
+                                          },
+                                    "M_{GTsd}^{AA}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{AP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{PP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{Tsd}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{Tsd}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            }
+                                  }
+                      }
+          },
+          {
+            "Model class":  "QRPA",
+            "Model":  "Spherical QRPA",
+            "Isotope":  "76Ge",
+            "g_A":  "1.27",
+            "matrix_elements":  {
+                        "M_{total}":  {
+                                 "value":  "6.6",
+                                 "error":  ""
+                               },
+                        "M_{long\\,range}":  {
+                                    "value":  "6.6",
+                                    "error":  ""
+                                  },
+                        "M_{short\\,range}":  {
+                                     "value":  "-",
+                                     "error":  ""
+                                   },
+                        "M_summed":  {
+                                "M_{GT}":  {
+                                        "value":  "5.1",
+                                        "error":  ""
+                                      },
+                                "M_F":  {
+                                      "value":  "-1.9",
+                                      "error":  ""
+                                    },
+                                "M_T":  {
+                                      "value":  "-0.41",
+                                      "error":  ""
+                                    }
+                              },
+                        "M_subcomponents":  {
+                                    "M_F":  {
+                                          "value":  "",
+                                          "error":  ""
+                                        },
+                                    "M_{GT}^{AA}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{GT}^{MM}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{T}^{AA}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{AP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{PP}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{T}^{MM}":  {
+                                             "value":  "",
+                                             "error":  ""
+                                           },
+                                    "M_{Fsd}":  {
+                                            "value":  "",
+                                            "error":  ""
+                                          },
+                                    "M_{GTsd}^{AA}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{AP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{GTsd}^{PP}":  {
+                                               "value":  "",
+                                               "error":  ""
+                                             },
+                                    "M_{Tsd}^{AP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            },
+                                    "M_{Tsd}^{PP}":  {
+                                              "value":  "",
+                                              "error":  ""
+                                            }
+                                  }
+                      }
+          }
+        ]
+}

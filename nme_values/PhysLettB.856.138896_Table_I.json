@@ -1,0 +1,499 @@
+{
+  "Reference": "Ding, Li, and Yao 2024",
+  "URL": "https://doi.org/10.1016/j.physletb.2024.138896",
+  "bibtex": "@article{Ding:2024obt,
+    author = \"Ding, Chen-rong and Li, Gang and Yao, Jiang-ming\",
+    title = \"{Nuclear matrix elements of neutrinoless double-beta decay in covariant density functional theory with different mechanisms}\",
+    eprint = \"2403.17722\",
+    archivePrefix = \"arXiv\",
+    primaryClass = \"nucl-th\",
+    doi = \"10.1016/j.physletb.2024.138896\",
+    journal = \"Phys. Lett. B\",
+    volume = \"856\",
+    pages = \"138896\",
+    year = \"2024\"
+}
+",
+  "entries": [
+    {
+      "Model class": "EDF",
+      "Model": "MR-CDFT",
+      "Isotope": "76Ge",
+      "g_A": "1.27",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.924",
+            "error": ""
+          },
+          "M_T": {
+            "value": "",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.924",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "5.743",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "-1.462",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "0.423",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "0.326",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "0.020",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "0.174",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "0.012",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "-2.226",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "7.141",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "-3.120",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "1.090",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "0.143",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "-0.226",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "EDF",
+      "Model": "MR-CDFT",
+      "Isotope": "82Se",
+      "g_A": "1.27",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.742",
+            "error": ""
+          },
+          "M_T": {
+            "value": "",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.742",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "5.021",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "-1.320",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "0.386",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "0.298",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "-0.018",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "0.156",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "0.005",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "-2.049",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "6.549",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "-2.882",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "1.011",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "0.023",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "-0.196",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "EDF",
+      "Model": "MR-CDFT",
+      "Isotope": "100Mo",
+      "g_A": "1.27",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.814",
+            "error": ""
+          },
+          "M_T": {
+            "value": "",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.814",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "6.341",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "-1.591",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "0.461",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "0.359",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "0.039",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "0.162",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "0.012",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "-2.484",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "7.974",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "-3.513",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "1.239",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "0.084",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "-0.284",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "EDF",
+      "Model": "MR-CDFT",
+      "Isotope": "130Te",
+      "g_A": "1.27",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.365",
+            "error": ""
+          },
+          "M_T": {
+            "value": "",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.365",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "4.565",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "-1.206",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "0.352",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "0.275",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "0.062",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "0.121",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "0.017",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "-1.843",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "6.160",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "-2.728",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "0.966",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "0.271",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "-0.270",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "EDF",
+      "Model": "MR-CDFT",
+      "Isotope": "136Xe",
+      "g_A": "1.27",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.184",
+            "error": ""
+          },
+          "M_T": {
+            "value": "",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.184",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "4.003",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "-1.059",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "0.308",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "0.240",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "0.053",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "0.108",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "0.014",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "-1.607",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "5.390",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "-2.379",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "0.841",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "0.221",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "-0.227",
+            "error": ""
+          }
+        }
+      }
+    }
+  ]
+}

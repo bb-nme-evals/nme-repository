@@ -1,0 +1,1447 @@
+{
+  "Reference": "Jokiniemi et al. 2018",
+  "URL": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.024608",
+  "bibtex": "@article{Jokiniemi:2018sxd,\n  author = \"Jokiniemi, L. and Ejiri, H. and Frekers, D. and Suhonen, J.\",\n  title = \"{Neutrinoless $\\beta \\beta$ nuclear matrix elements using isovector spin-dipole $J^\\pi=2^\u2212$ data}\",\n  doi = \"10.1103/PhysRevC.98.024608\",\n  journal = \"Phys. Rev. C\",\n  volume = \"98\",\n  number = \"2\",\n  pages = \"024608\",\n  year = \"2018\"\n}",
+  "entries": [
+    {
+      "Model class": "QRPA",
+      "Model": "WS",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "6.8",
+          "error": "0.3"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.4",
+            "error": "0.2"
+          },
+          "M_F": {
+            "value": "-1.76",
+            "error": "0.06"
+          },
+          "M_T": {
+            "value": "-0.356",
+            "error": "0.013"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.76",
+            "error": "0.06"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "WS",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "6.9",
+          "error": "0.3"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.5",
+            "error": "0.2"
+          },
+          "M_F": {
+            "value": "-1.76",
+            "error": "0.05"
+          },
+          "M_T": {
+            "value": "-0.357",
+            "error": "0.012"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.76",
+            "error": "0.05"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "WS",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "7.4",
+          "error": "0.4"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.8",
+            "error": "0.3"
+          },
+          "M_F": {
+            "value": "-1.95",
+            "error": "0.11"
+          },
+          "M_T": {
+            "value": "-0.31",
+            "error": "0.03"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.95",
+            "error": "0.11"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "6.9",
+          "error": "0.3"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.3",
+            "error": "0.2"
+          },
+          "M_F": {
+            "value": "-1.99",
+            "error": "0.08"
+          },
+          "M_T": {
+            "value": "-0.390",
+            "error": "0.015"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.99",
+            "error": "0.08"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "6.8",
+          "error": "0.3"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.2",
+            "error": "0.2"
+          },
+          "M_F": {
+            "value": "-1.99",
+            "error": "0.08"
+          },
+          "M_T": {
+            "value": "-0.389",
+            "error": "0.014"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.99",
+            "error": "0.08"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "6.6",
+          "error": "0.4"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.1",
+            "error": "0.3"
+          },
+          "M_F": {
+            "value": "-1.90",
+            "error": "0.13"
+          },
+          "M_T": {
+            "value": "-0.41",
+            "error": "0.03"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.90",
+            "error": "0.13"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp small [29]",
+      "Isotope": "76Ge",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "6.54",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "5.07",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.74",
+            "error": ""
+          },
+          "M_T": {
+            "value": "-0.28",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.74",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "96Zr",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "5.3",
+          "error": "0.2"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.95",
+            "error": "0.12"
+          },
+          "M_F": {
+            "value": "-1.64",
+            "error": "0.06"
+          },
+          "M_T": {
+            "value": "-0.254",
+            "error": "0.014"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.64",
+            "error": "0.06"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "96Zr",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "5.3",
+          "error": "0.2"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.97",
+            "error": "0.14"
+          },
+          "M_F": {
+            "value": "-1.64",
+            "error": "0.06"
+          },
+          "M_T": {
+            "value": "-0.255",
+            "error": "0.013"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.64",
+            "error": "0.06"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "96Zr",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "5.5",
+          "error": "0.4"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "4.0",
+            "error": "0.3"
+          },
+          "M_F": {
+            "value": "-1.68",
+            "error": "0.13"
+          },
+          "M_T": {
+            "value": "-0.24",
+            "error": "0.04"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.68",
+            "error": "0.13"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp small [29]",
+      "Isotope": "96Zr",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "4.47",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.26",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.44",
+            "error": ""
+          },
+          "M_T": {
+            "value": "-0.23",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.44",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "100Mo",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "5.54",
+          "error": "0.10"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.74",
+            "error": "0.04"
+          },
+          "M_F": {
+            "value": "-2.30",
+            "error": "0.05"
+          },
+          "M_T": {
+            "value": "-0.500",
+            "error": "0.010"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-2.30",
+            "error": "0.05"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "100Mo",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "5.55",
+          "error": "0.11"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.76",
+            "error": "0.05"
+          },
+          "M_F": {
+            "value": "-2.30",
+            "error": "0.05"
+          },
+          "M_T": {
+            "value": "-0.503",
+            "error": "0.009"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-2.30",
+            "error": "0.05"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp",
+      "Isotope": "100Mo",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "5.9",
+          "error": "0.4"
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.9",
+            "error": "0.2"
+          },
+          "M_F": {
+            "value": "-2.43",
+            "error": "0.15"
+          },
+          "M_T": {
+            "value": "-0.47",
+            "error": "0.03"
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-2.43",
+            "error": "0.15"
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    },
+    {
+      "Model class": "QRPA",
+      "Model": "sp small [29]",
+      "Isotope": "100Mo",
+      "g_A": "1.00",
+      "matrix_elements": {
+        "M_{total}": {
+          "value": "4.98",
+          "error": ""
+        },
+        "M_{long\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_{short\\,range}": {
+          "value": "",
+          "error": ""
+        },
+        "M_summed": {
+          "M_{GT}": {
+            "value": "3.62",
+            "error": ""
+          },
+          "M_F": {
+            "value": "-1.63",
+            "error": ""
+          },
+          "M_T": {
+            "value": "-0.27",
+            "error": ""
+          }
+        },
+        "M_subcomponents": {
+          "M_F": {
+            "value": "-1.63",
+            "error": ""
+          },
+          "M_{GT}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GT}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{T}^{MM}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Fsd}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AA}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{GTsd}^{PP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{AP}": {
+            "value": "",
+            "error": ""
+          },
+          "M_{Tsd}^{PP}": {
+            "value": "",
+            "error": ""
+          }
+        }
+      }
+    }
+  ]
+}

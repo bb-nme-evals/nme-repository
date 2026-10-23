@@ -1,0 +1,11 @@
+*.[pP][dD][fF]
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+.nme_extraction_*/
