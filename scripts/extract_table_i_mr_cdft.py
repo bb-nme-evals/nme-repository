@@ -81,7 +81,18 @@ def main() -> None:
     formatter.set_metadata(
         reference="Ding, Li, and Yao 2024",
         url="https://doi.org/10.1016/j.physletb.2024.138896",
-        bibtex="",
+        bibtex='''@article{Ding:2024obt,
+    author = "Ding, Chen-rong and Li, Gang and Yao, Jiang-ming",
+    title = "{Nuclear matrix elements of neutrinoless double-beta decay in covariant density functional theory with different mechanisms}",
+    eprint = "2403.17722",
+    archivePrefix = "arXiv",
+    primaryClass = "nucl-th",
+    doi = "10.1016/j.physletb.2024.138896",
+    journal = "Phys. Lett. B",
+    volume = "856",
+    pages = "138896",
+    year = "2024"
+}''',
     )
     for isotope in ISOTOPES:
         formatter.add_entry({

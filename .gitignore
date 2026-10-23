@@ -1,4 +1,7 @@
 *.[pP][dD][fF]
+*.[tT][xX][tT]
+*.[pP][nN][gG]
+!requirements.txt
 .venv/
 venv/
 __pycache__/
