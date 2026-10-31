@@ -133,6 +133,8 @@ class JSONFormatter:
                 structured["matrix_elements"] = self._structure_matrix_elements(
                     entry.get("matrix_elements", {})
                 )
+            elif field in ("Hamiltonian", "Notes"):
+                structured[field] = entry.get(field) or ""
             else:
                 structured[field] = entry.get(field)
         

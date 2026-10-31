@@ -58,6 +58,11 @@ class TestSemanticParser(unittest.TestCase):
         self.assertEqual(self.parser._parse_g_a("g_A=1.27"), "1.27")
         self.assertIsNone(self.parser._parse_g_a("invalid"))
 
+    def test_match_hamiltonian_and_notes_headers(self):
+        self.assertEqual(self.parser._match_column_name("hamiltonian"), "Hamiltonian")
+        self.assertEqual(self.parser._match_column_name("effective interaction"), "Hamiltonian")
+        self.assertEqual(self.parser._match_column_name("notes"), "Notes")
+
 
 class TestJSONFormatter(unittest.TestCase):
     """Test JSON formatting functionality."""
@@ -126,6 +131,24 @@ class TestJSONFormatter(unittest.TestCase):
         # Check that we preserved provided values
         self.assertEqual(structured["M_{total}"]["value"], "6.8")
         self.assertEqual(structured["M_subcomponents"]["M_{GT}^{AA}"]["value"], "2.5")
+
+    def test_structure_entry_metadata_defaults_and_preserves_values(self):
+        entry = {
+            "Model class": "EDF",
+            "Model": "MR-CDFT",
+            "Isotope": "76Ge",
+            "g_A": "1.27",
+            "matrix_elements": {"M_{total}": {"value": "", "error": ""}},
+        }
+        self.formatter.add_entry(entry)
+        self.assertEqual(self.formatter.entries[0]["Hamiltonian"], "")
+        self.assertEqual(self.formatter.entries[0]["Notes"], "")
+
+        entry["Hamiltonian"] = "DD-PC1"
+        entry["Notes"] = "Results use the closure approximation."
+        structured = self.formatter._structure_entry(entry)
+        self.assertEqual(structured["Hamiltonian"], "DD-PC1")
+        self.assertEqual(structured["Notes"], "Results use the closure approximation.")
     
     def test_to_json(self):
         """Test JSON serialization."""
@@ -216,6 +239,25 @@ class TestJSONValidator(unittest.TestCase):
         
         is_valid, report = self.validator.validate_dict(data)
         self.assertGreater(report["warning_count"], 0)
+
+    def test_validate_optional_metadata_types(self):
+        data = {
+            "Reference": "Test 2024",
+            "URL": "",
+            "bibtex": "",
+            "entries": [{
+                "Model class": "QRPA",
+                "Model": "WS",
+                "Hamiltonian": ["not", "a", "string"],
+                "Isotope": "76Ge",
+                "g_A": "1.00",
+                "Notes": "",
+                "matrix_elements": {"M_{total}": {"value": "6.8", "error": ""}},
+            }],
+        }
+        is_valid, report = self.validator.validate_dict(data)
+        self.assertFalse(is_valid)
+        self.assertTrue(any("Hamiltonian" in error for error in report["errors"]))
 
 
 if __name__ == "__main__":

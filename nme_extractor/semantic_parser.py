@@ -137,6 +137,10 @@ class SemanticParser:
             return "Model class"
         if any(var in col_text for var in MODEL_VARIANTS):
             return "Model"
+        if col_text in {"hamiltonian", "interaction", "effective interaction"}:
+            return "Hamiltonian"
+        if col_text in {"note", "notes", "remarks"}:
+            return "Notes"
         if "g_a" in col_text or "g_A" in col_text or "gA" in col_text:
             return "g_A"
         
@@ -171,8 +175,10 @@ class SemanticParser:
         entry = {
             "Model class": None,
             "Model": None,
+            "Hamiltonian": "",
             "Isotope": None,
             "g_A": None,
+            "Notes": "",
             "matrix_elements": {},
         }
         
@@ -201,6 +207,8 @@ class SemanticParser:
                 entry["Model"] = self._parse_model_variant(value_str)
             elif field_name == "g_A":
                 entry["g_A"] = self._parse_g_a(value_str)
+            elif field_name in ("Hamiltonian", "Notes"):
+                entry[field_name] = value_str
             else:
                 # It's a matrix element
                 val, err = self._parse_value_with_error(value_str)

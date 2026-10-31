@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from nme_extractor.config import MATRIX_ELEMENT_STRUCTURE
 
-META_COLUMNS = ("Model", "Model class", "Reference", "Isotope", "g_A")
+META_COLUMNS = ("Model", "Model class", "Hamiltonian", "Reference", "Isotope", "g_A")
 META_HEADERS = {"g_A": "$g_A$"}
 MISSING = "--"
 

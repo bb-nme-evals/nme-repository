@@ -113,6 +113,10 @@ class JSONValidator:
                 self.errors.append(f"{prefix} Missing field '{field}'")
             elif field != "matrix_elements" and not entry[field]:
                 self.warnings.append(f"{prefix} Field '{field}' is empty")
+
+        for field in ("Hamiltonian", "Notes"):
+            if field in entry and not isinstance(entry[field], str):
+                self.errors.append(f"{prefix} Field '{field}' must be a string")
         
         # Validate isotope
         isotope = entry.get("Isotope")

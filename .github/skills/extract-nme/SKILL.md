@@ -55,8 +55,11 @@ description: "Use when extracting nuclear matrix elements (NMEs) from PDF papers
 Top level: `Reference` (author/year), `URL` (stable publication/DOI link), `bibtex`
 (full BibTeX string), and `entries` (list).
 
-Entry: `Model class`, `Model`, `Isotope` (parent, e.g. `76Ge`), `g_A` (string),
-and `matrix_elements` (object). Preserve case and exact spelling.
+Entry: `Model class`, `Model`, `Hamiltonian`, `Isotope` (parent, e.g. `76Ge`),
+`g_A` (string), `Notes`, and `matrix_elements` (object). `Hamiltonian` names the
+interaction/effective Hamiltonian; `Notes` records concise calculation-specific
+qualifications. Both are strings and may be `""` if unavailable. Preserve case
+and exact spelling, and do not infer either field from a model label.
 
 Each NME leaf is `{"value": "...", "error": "..."}`. Both fields are strings;
 unreported fields are `""`. Do not use JSON null or numeric zeros for absence.
@@ -80,7 +83,8 @@ by default, even if entire columns are empty. Do not collapse repeated names.
 - Run `python -m unittest tests.test_parser` in the configured environment.
 - Strict-parse changed JSON files and assert non-empty `bibtex` and entry lists
   for any newly curated publication dataset.
-- Regenerate the LaTeX table with explicit curated inputs; confirm 26 columns
-  (5 metadata + 21 NMEs), grouped headings, `$g_A$`, and missing-cell placeholders.
+- Regenerate the LaTeX table with explicit curated inputs; confirm 27 columns
+   (6 metadata + 21 NMEs), including Hamiltonian, grouped headings, `$g_A$`, and
+   missing-cell placeholders. Free-form Notes are retained in JSON, not rendered.
 - Inspect the Git diff for unintended value changes, bibliography loss,
   duplicate datasets, and raw source material. Report limitations honestly.

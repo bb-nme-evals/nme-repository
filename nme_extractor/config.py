@@ -74,8 +74,10 @@ for canonical, aliases in MATRIX_ELEMENT_ALIASES.items():
 ENTRY_FIELD_ORDER = [
     "Model class",
     "Model",
+    "Hamiltonian",
     "Isotope",
     "g_A",
+    "Notes",
     "matrix_elements",
 ]
 
